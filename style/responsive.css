@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media screen (max-width:700px){
     header .container{
         display: flex;
@@ -7,5 +8,23 @@
         margin-top: 5px;
         width: 90px;
         height: 60px;
+=======
+@media(max-width:700px){
+    header .container{
+        display:flex;
+        flex-direction: column;
+
+    }
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+       
+    }
+}
+
+@media(min-width:1000px) {
+    .descriçao{
+        width: 50%;
+>>>>>>> 3d69f34c5f3044f952b3992a18ac1547f7de3f24
     }
 }
